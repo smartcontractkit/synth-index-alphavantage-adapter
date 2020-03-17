@@ -5,13 +5,13 @@ This adapter pulls the indexes for Synthetix's index synths, retrieves the curre
 ## Install
 
 ```bash
-npm install
+yarn
 ```
 
 ## Test
 
 ```bash
-npm test
+yarn test
 ```
 
 ## Create the zip
@@ -25,7 +25,7 @@ zip -r cl-synth-index-alphavantage.zip .
 - In Lambda Functions, create function
 - On the Create function page:
   - Give the function a name
-  - Use Node.js 8.10 for the runtime
+  - Use Node.js 12.x for the runtime
   - Choose an existing role or create a new one
   - Click Create Function
 - Under Function code, select "Upload a .zip file" from the Code entry type drop-down
